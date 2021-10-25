@@ -1,0 +1,82 @@
+html{
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    width: 100%;
+ }
+
+.sp1{
+    display: flexbox;
+    padding-left: 5px;
+ }
+ 
+ .row{
+     display: flex;
+     flex-direction: column;
+     padding-left: 30%;
+ }
+ 
+ .button-edit{
+     padding: 10px 20px;
+     width: 100%;
+     
+     background-color: rgb(203, 223, 91);
+     font-size: 20px;
+     margin-right: 40px;
+     border-radius: 8px;
+     transition-duration: 0.4s;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ 
+ 
+ .text-center{
+     text-align: center;
+     color: white;
+     font-size: 25px;
+ }
+ 
+ input[type="number" i] {
+     padding: 3px 4px;
+     border-radius: 2px;
+     display: inline-block;
+     box-sizing: border-box;
+     margin: 70px;
+     color: black;
+ }
+ 
+ .line{
+     width: 100%;
+     background-color: black;
+     height: 1px;
+ }
+ 
+ .table{
+     border-radius: 3px;
+     
+ }
+ 
+
+
+ body h1{
+     margin-top:0;
+     padding-top: 26px;
+ }
+ 
+ .payment{
+     background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 15px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 25px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-style: double;
+   border-radius: 8px;
+ }
+ 
+ .produce {
+     color: white;
+     font-size: 25px;
+ }
