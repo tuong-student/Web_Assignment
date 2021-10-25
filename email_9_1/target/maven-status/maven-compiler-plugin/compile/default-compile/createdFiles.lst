@@ -1,0 +1,3 @@
+com\email\email\EmailListServlet.class
+com\email\business\User.class
+com\email\data\UserDB.class

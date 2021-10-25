@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tạo Trang Login</title>
+     <link rel="stylesheet" href="styles/style.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section>
+        <!--Bắt Đầu Phần Hình Ảnh-->
+        <div class="img-bg">
+            <img src="https://chibaosinger.github.io/assets/images/img-14.jpeg">
+        </div>
+        <!--Kết Thúc Phần Hình Ảnh-->
+        <!--Bắt Đầu Phần Nội Dung-->
+        <div class="noi-dung">
+            <div class="form">
+                <h2>Trang Đăng Ký</h2>
+                <form action="emailList" method="post">
+                    <input type="hidden" name="action" value="add">
+                    <div class="input-form">
+                        <span>HỌ</span>
+                        <input type="text" name="firstName" placeholder="Nhập họ của bạn">
+                    </div>
+                    <div class="input-form">
+                        <span>TÊN</span>
+                        <input type="text" name="lastName" placeholder="Nhập tên của bạn">
+                    </div>
+                    <div class="input-form">
+                        <span>EMAIL</span>
+                        <input type="email" name="email" placeholder="example@gmail.com">
+                    </div>
+                    <!-- <div class="input-form">
+                        <span>SỐ ĐIỆN THOẠI</span>
+                        <input type="text" name="">
+                    </div>
+                    <div class="input-form">
+                        <span>NHẬP MẬT KHẨU</span>
+                        <input type="password" name="">
+                    </div>
+                    <div class="input-form">
+                        <span>NHẬP LẠI MẬT KHẨU</span>
+                        <input type="text" name="">
+                    </div> -->
+                    <div class="input-form">
+                        <input type="submit" value="Đăng ký">
+                    </div>
+                    
+                </form>
+                <h3>Đăng Nhập Bằng Mạng Xã Hội</h3>
+                <ul class="icon-dang-nhap">
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+        <!--Kết Thúc Phần Nội Dung-->
+    </section>
+</body>
+</html>
