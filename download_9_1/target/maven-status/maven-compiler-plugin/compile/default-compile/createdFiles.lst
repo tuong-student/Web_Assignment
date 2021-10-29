@@ -1,0 +1,6 @@
+com\download\data\UserIO.class
+com\download\business\User.class
+com\download\download\DownloadServlet.class
+com\download\business\Product.class
+com\download\data\ProductIO.class
+com\download\util\CookieUtil.class
